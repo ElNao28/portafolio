@@ -1,5 +1,6 @@
 import { AboutMe } from "../components/AboutMe";
 import { NavBar } from "../components/NavBar";
+import { Technologies } from "../components/Technologies";
 
 export const Home = () => {
 
@@ -8,6 +9,7 @@ export const Home = () => {
       <div className="pb-5 max-w-[65vw]">
         <NavBar />
         <AboutMe />
+        <Technologies />
       </div>
     </div>
   );
