@@ -3,9 +3,9 @@ import "../styles/carrucel-technologies.css";
 
 const listImages = [...listTechnologies, ...listTechnologies];
 
-export const Technologies = () => {
+export const Skills = () => {
   return (
-    <section className="mt-10">
+    <section id="skills" className="mt-10">
       <h1 className="text-5xl font-bold text-center mb-5 dark:text-white">
         Skills
       </h1>

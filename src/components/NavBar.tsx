@@ -32,8 +32,8 @@ export const NavBar = () => {
           </a>
         </li>
         <li>
-          <a className="hover:underline" href="#">
-            Technologies
+          <a className="hover:underline" href="#skills">
+            Skills
           </a>
         </li>
         <li>
