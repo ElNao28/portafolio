@@ -17,11 +17,6 @@ export const NavBar = () => {
           </a>
         </li>
         <li>
-          <a className="hover:underline" href="aboutMe">
-            About me
-          </a>
-        </li>
-        <li>
           <a className="hover:underline" href="#">
             Experiencie
           </a>
