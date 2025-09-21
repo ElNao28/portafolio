@@ -9,7 +9,7 @@ export const NavBar = () => {
   const { theme, toggleTheme } = useTheme();
 
   return (
-    <nav className="text-black dark:text-white py-8 px-4">
+    <nav className="text-black dark:text-white py-8 px-4 w-full fixed top-0 flex justify-center backdrop-blur-[2px]">
       <ul className="flex items-center gap-5 font-bold justify-end text-lg">
         <li>
           <a className="hover:underline" href="#">
