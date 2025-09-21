@@ -1,25 +1,12 @@
-import { useEffect } from "react";
 import { AboutMe } from "../components/AboutMe";
 import { NavBar } from "../components/NavBar";
 
 export const Home = () => {
 
-  useEffect(() => {
-    const theme = localStorage.getItem('theme')
-    if(!theme) return;
-    document.documentElement.className = theme;
-  }, [])
-  
-
-  const toggleDarkMode = (): void => {
-    const theme = document.documentElement.classList.toggle("dark");
-    localStorage.setItem('theme',theme ? 'dark' : 'light')
-  };
-
   return (
     <div className="h-screen w-screen bg-white dark:bg-gradient-to-b from-purple-950 to-black to-80% transition-all flex justify-center">
       <div className="pb-5 max-w-[65vw]">
-        <NavBar toggleDarkMode={toggleDarkMode} />
+        <NavBar />
         <AboutMe />
       </div>
     </div>
