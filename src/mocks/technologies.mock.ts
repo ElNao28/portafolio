@@ -64,7 +64,7 @@ const listTechnologies: Technologie[] = [
     url: react,
   },
   {
-    name: 'Tailwind CSS',
+    name: 'Tailwind',
     url: tailwind,
   },
   {

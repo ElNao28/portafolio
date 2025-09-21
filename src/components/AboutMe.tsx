@@ -4,11 +4,11 @@ export const AboutMe = () => {
   return (
     <section
       id="aboutMe"
-      className="w-full pb-5 pt-40 bg-gradient-to-bl to-50% from-purple-700 to-white dark:to-black flex justify-center"
+      className="w-full pb-5 flex justify-center mt-40"
     >
-      <div className="w-2/3">
-        <div className="flex items-center gap-10">
-          <div className="w-1/4">
+      <div className="md:w-2/3">
+        <div className="flex flex-col md:flex-row items-center gap-10">
+          <div className="w-2/4 md:w-1/4">
             <img
               src={imageProfile}
               alt="Profile picture"
@@ -17,7 +17,7 @@ export const AboutMe = () => {
           </div>
           <div className="w-3/4">
             <h1 className="text-4xl font-bold pb-5 dark:text-white">
-              Who I'm?
+              Who am I?
             </h1>
             <p className="text-black dark:text-white text-lg">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti

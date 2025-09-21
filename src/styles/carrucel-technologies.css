@@ -1,16 +1,16 @@
 .slider{
-  width: 70%;
+  width: 60%;
   overflow: hidden;
 }
 .slider .slider-track{
   display: flex;
-  gap: 0.8rem;
-  width: calc(6.8rem * 28);
+  gap: 1.5rem;
+  width: calc(6.5rem * 28);
   animation: scroll 30s linear infinite;
 }
 
 .slider .card{
-  width: 6rem;
+  width: 5rem;
 }
 
 .slider .card img{
@@ -22,6 +22,6 @@
     transform: translateX(0)
   }
   to{
-    transform: translateX(calc(-6.8rem * 14));
+    transform: translateX(calc(-6.5rem * 14));
   }
 }

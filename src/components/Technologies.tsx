@@ -7,10 +7,10 @@ export const Technologies = () => {
   return (
     <section className="mt-10">
       <h1 className="text-5xl font-bold text-center mb-5 dark:text-white">
-        Technologies
+        Skills
       </h1>
       <div className="flex justify-center">
-        <div className="slider">
+        <div className="slider bg-red- rounded-full">
           <div className="slider-track">
             {listImages.map(({ name, url }, index) => (
               <div
@@ -22,7 +22,7 @@ export const Technologies = () => {
                   src={url}
                   alt={name}
                 />
-                <span className="cursor-pointer hover:underline">{name}</span>
+                {/* <span className="cursor-pointer hover:underline">{name}</span> */}
               </div>
             ))}
           </div>
