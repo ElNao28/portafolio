@@ -1,4 +1,5 @@
 import { AboutMe } from "../components/AboutMe";
+import { Contact } from "../components/Contact";
 import { Experience } from "../components/Experience";
 import { Home } from "../components/Home";
 import { NavBar } from "../components/NavBar";
@@ -12,6 +13,7 @@ export const App = () => {
       <AboutMe />
       <Experience />
       <Skills />
+      <Contact />
     </div>
   );
 };
