@@ -22,18 +22,23 @@ export const NavBar = () => {
           </a>
         </li>
         <li>
-          <a className="hover:underline" href="#">
+          <a className="hover:underline" href="#experience">
             Experiencie
           </a>
         </li>
         <li>
-          <a className="hover:underline" href="#">
+          <a className="hover:underline" href="#projects">
             Projects
           </a>
         </li>
         <li>
           <a className="hover:underline" href="#skills">
             Skills
+          </a>
+        </li>
+        <li>
+          <a className="hover:underline" href="#contact">
+            Contact
           </a>
         </li>
         <li>

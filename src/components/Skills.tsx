@@ -5,12 +5,12 @@ const listImages = [...listTechnologies, ...listTechnologies];
 
 export const Skills = () => {
   return (
-    <section id="skills" className="mt-10">
+    <section id="skills" className="py-20">
       <h1 className="text-5xl font-bold text-center mb-5 dark:text-white">
         Skills
       </h1>
       <div className="flex justify-center">
-        <div className="slider bg-red- rounded-full">
+        <div className="slider">
           <div className="slider-track">
             {listImages.map(({ name, url }, index) => (
               <div

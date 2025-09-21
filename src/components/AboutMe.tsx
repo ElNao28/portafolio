@@ -4,28 +4,30 @@ export const AboutMe = () => {
   return (
     <section
       id="aboutMe"
-      className="w-full flex justify-center items-center -bg-linear-90 from-purple-300 dark:to-black to-30% relative overflow-hidden h-[45vh] mt-20"
+      className="w-full flex justify-center pt-40 relative overflow-hidden h-[100vh] dark:bg-gradient-to-b dark:from-black dark:via-purple-500/30 dark:to-black"
     >
       <img
         src={background}
         alt="anime-girl"
-        className="absolute right-0 top-0 z-0 h-full"
+        className="absolute right-0 bottom-0 z-0 drop-shadow-amber-200 drop-shadow-2xl"
       />
-      <div className="md:w-2/3 z-10">
-        <h1 className="dark:text-white text-center text-6xl pb-10 font-bold">About me</h1>
+      <div className="z-10 w-2/3">
+        <h1 className="dark:text-white text-center text-6xl pb-5 font-bold">
+          About me
+        </h1>
         <div className="flex flex-col md:flex-row items-center gap-10">
-          <div className="w-2/4 md:w-1/4">
+          <div className="w-[100%]">
             <img
               src={imageProfile}
               alt="Profile picture"
               className="rounded-full w-full"
             />
           </div>
-          <div className="w-3/4">
+          <div className="pt-10">
             <h2 className="text-4xl font-bold pb-5 dark:text-white">
               Who am I?
             </h2>
-            <p className="text-black dark:text-white text-lg w-3/4">
+            <p className="text-black dark:text-white text-lg">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti
               at eligendi quod inventore soluta ipsa voluptatibus dolores velit
               harum optio, id quidem error ullam. Iste numquam quae minus
