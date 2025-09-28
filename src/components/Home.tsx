@@ -11,11 +11,11 @@ export const Home = () => {
         src={animeGirl}
         alt="anime-girl"
       />
-      <div className="flex flex-col items-center justify-center h-[100vh]">
-        <h1 className=" text-8xl dark:text-white font-bold z-10 drop-shadow-xl caprasimo-regular">
+      <div className="flex flex-col items-center justify-center h-[30vh] lg:h-[100vh]">
+        <h1 className=" text-3xl md:text-8xl dark:text-white font-bold z-10 drop-shadow-xl caprasimo-regular">
           Hello!
         </h1>
-        <span className=" dark:text-white text-3xl md:text-6xl lg:text-8xl font-bold typing-text w-1/3 z-10 drop-shadow-xl caprasimo-regular">
+        <span className=" dark:text-white text-3xl lg:text-8xl font-bold typing-text w-1/3 z-10 drop-shadow-xl caprasimo-regular">
           Welcome to my website.
         </span>
       </div>
