@@ -4,14 +4,14 @@ export const Home = () => {
   return (
     <section
       id="home"
-      className="bg-gradient-to-br to-50% from-purple-400 to-white dark:to-black/40"
+      className="bg-gradient-to-br to-50% from-purple-400 to-white dark:to-black/40 relative"
     >
       <img
-        className="absolute top-0 w-1/2 left-10 z-0"
+        className="absolute top-0 w-auto h-full left-10 z-0"
         src={animeGirl}
         alt="anime-girl"
       />
-      <div className="flex flex-col items-center justify-center h-[30vh] lg:h-[100vh]">
+      <div className="flex flex-col items-center justify-center h-[20vh] md:h-[30vh] lg:h-[100vh]">
         <h1 className=" text-3xl md:text-8xl dark:text-white font-bold z-10 drop-shadow-xl caprasimo-regular">
           Hello!
         </h1>
