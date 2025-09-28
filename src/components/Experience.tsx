@@ -12,7 +12,7 @@ export const Experience = () => {
       </h1>
       <div className="flex justify-center mt-5 md:mt-10 relative pb-10">
       <img src={gifBackground} alt="anime-girl" className="absolute z-0 left-0 bottom-0 md:h-full" />
-        <div className="z-20 backdrop-blur-[5px] lg:backdrop-blur-none backdrop-brightness-50 lg:backdrop-brightness-100 p-10 lg:p-0 rounded-md">
+        <div className="z-20 backdrop-blur-[5px] lg:backdrop-blur-none dark:backdrop-brightness-50 backdrop-brightness-90 dark:lg:backdrop-brightness-100 lg:backdrop-brightness-100 p-10 lg:p-0 rounded-md mx-2 md:mx-0">
           {listExperience.map(({ title, date, location, toDo }, index) => (
             <div
               key={index}
