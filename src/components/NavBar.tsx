@@ -9,8 +9,8 @@ export const NavBar = () => {
   const { theme, toggleTheme } = useTheme();
 
   return (
-    <nav className="text-black text-sm md:text-lg dark:text-white py-8 px-4 w-full fixed top-0 flex justify-center backdrop-blur-[3px] z-50">
-      <ul className="flex items-center gap-5 font-bold justify-end">
+    <nav className="text-black text-[10px] md:text-lg dark:text-white py-3 md:py-5 lg:py-8 px-4 w-full fixed top-0 flex justify-center backdrop-blur-[3px] z-50">
+      <ul className="flex items-center gap-3 md:gap-5 font-bold justify-end">
         <li>
           <a className="hover:underline" href="#home">
             Home
@@ -44,11 +44,11 @@ export const NavBar = () => {
         <li>
           {
             theme === 'light' ?
-            <button onClick={() => toggleTheme('dark')} className="cursor-pointer flex items-center text-xl">
+            <button onClick={() => toggleTheme('dark')} className="cursor-pointer flex items-center md:text-xl">
             <CiSun />
           </button>
           :
-          <button onClick={() => toggleTheme('light')} className="cursor-pointer flex items-center text-xl">
+          <button onClick={() => toggleTheme('light')} className="cursor-pointer flex items-center md:text-xl">
             <MdDarkMode />
           </button>}
         </li>
