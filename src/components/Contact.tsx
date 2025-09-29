@@ -5,14 +5,12 @@ export const Contact = () => {
       id="contact"
       className="bg-linear-to-tr from-purple-500 dark:to-black to-30%"
     >
-      <h1 className="text-6xl font-bold dark:text-white text-center mb-10">
+      <h1 className="text-4xl md:text-6xl font-bold dark:text-white text-center mb-10">
         Contact
       </h1>
-      <div className="flex justify-center items-center w-full pb-10 gap-20">
-        <div>
-          <img src={contactImage} alt="contact" />
-        </div>
-        <form className="w-[30%]">
+      <div className="flex justify-center items-center w-full pb-10 gap-20 overflow-hidden relative">
+          <img src={contactImage} alt="contact" className="absolute bottom-32 lg:static z-0" />
+        <form className="w-[95%] md:w-[80%] lg:w-[30%] z-20 dark:backdrop-brightness-50 p-5 lg:backdrop-brightness-100 lg:p-2 rounded-md overflow-hidden backdrop-blur-[4px]">
           <div className="dark:text-white flex flex-col gap-2 mb-8">
             <label className="font-bold text-lg" htmlFor="name">
               Name and last name
