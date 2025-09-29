@@ -10,7 +10,7 @@ export const Skills = () => {
         Skills
       </h1>
       <div className="flex justify-center">
-        <div className="slider">
+        <div className="slider w-[90%] lg:w-[60%] overflow-hidden md:w-[80%]">
           <div className="slider-track">
             {listImages.map(({ name, url }, index) => (
               <div
