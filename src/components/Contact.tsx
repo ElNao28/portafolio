@@ -3,7 +3,7 @@ export const Contact = () => {
   return (
     <section
       id="contact"
-      className="bg-linear-to-tr from-purple-500 dark:to-black to-30%"
+      className=""
     >
       <h1 className="text-4xl md:text-6xl font-bold dark:text-white text-center mb-10">
         Contact

@@ -4,7 +4,7 @@ export const AboutMe = () => {
   return (
     <section
       id="aboutMe"
-      className="w-full flex justify-center pt-10 md:pt-20 lg:pt-40 relative overflow-hidden h-[100vh] dark:bg-gradient-to-b dark:from-black dark:via-purple-500/30 dark:to-black"
+      className="w-full flex justify-center pt-10 md:pt-20 lg:pt-40 relative overflow-hidden h-[100vh]"
     >
       <img
         src={background}

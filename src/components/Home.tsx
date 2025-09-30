@@ -4,7 +4,7 @@ export const Home = () => {
   return (
     <section
       id="home"
-      className="bg-gradient-to-br to-50% from-purple-400 to-white dark:to-black/40 relative"
+      className="relative"
     >
       <img
         className="absolute top-0 w-auto h-full left-10 z-0"

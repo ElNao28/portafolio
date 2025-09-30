@@ -5,7 +5,7 @@ export const Experience = () => {
   return (
     <section
       id="experience"
-      className="relative bg-gradient-to-b dark:from-black dark:via-purple-900 dark:to-black"
+      className="relative"
     >
       <h1 className="dark:text-white text-center mt-10 md:mt-20 text-3xl md:text-6xl font-bold">
         Experience

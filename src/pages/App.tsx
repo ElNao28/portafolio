@@ -7,7 +7,7 @@ import { Skills } from "../components/Skills";
 
 export const App = () => {
   return (
-    <div className="bg-white bg-gradient-to-bl to-10% from-purple-700 to-white dark:to-black transition-all">
+    <div className="">
       <NavBar />
       <Home />
       <AboutMe />
