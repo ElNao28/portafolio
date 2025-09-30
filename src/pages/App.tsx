@@ -7,7 +7,7 @@ import { Skills } from "../components/Skills";
 
 export const App = () => {
   return (
-    <div className="">
+    <div className=" dark:bg-black">
       <NavBar />
       <Home />
       <AboutMe />
