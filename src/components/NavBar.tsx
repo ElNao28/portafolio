@@ -1,5 +1,10 @@
 import { CiSun } from "react-icons/ci";
 import { MdDarkMode } from "react-icons/md";
+import { FaHome } from "react-icons/fa";
+import { GiProgression } from "react-icons/gi";
+import { IoFileTrayFullOutline } from "react-icons/io5";
+import { MdCategory } from "react-icons/md";
+import { IoMdContact } from "react-icons/io";
 import { useTheme } from "../hooks/useTheme";
 import "../styles/navbar.css";
 
@@ -13,42 +18,47 @@ export const NavBar = () => {
       <ul className="flex items-center gap-3 md:gap-4 font-bold justify-end">
         <li>
           <a
-            className="border-2 rounded-[2px] py-1 px-2 button-nav"
+            className="border-2 rounded-[2px] py-1 px-2 button-nav flex items-center gap-1"
             href="#home"
           >
-            Home
+            <FaHome />
+            <span>Home</span>
           </a>
         </li>
         <li>
           <a
-            className="border-2 rounded-[2px] py-1 px-2 button-nav"
+            className="border-2 rounded-[2px] py-1 px-2 button-nav flex items-center gap-1"
             href="#experience"
           >
-            Experiencie
+            <GiProgression />
+            <span>Experiencie</span>
           </a>
         </li>
         <li>
           <a
-            className="border-2 rounded-[2px] py-1 px-2 button-nav"
+            className="border-2 rounded-[2px] py-1 px-2 button-nav flex items-center gap-1"
             href="#projects"
           >
-            Projects
+            <IoFileTrayFullOutline />
+            <span>Projects</span>
           </a>
         </li>
         <li>
           <a
-            className="border-2 rounded-[2px] py-1 px-2 button-nav"
+            className="border-2 rounded-[2px] py-1 px-2 button-nav flex items-center gap-1"
             href="#skills"
           >
-            Skills
+            <MdCategory />
+            <span>Skills</span>
           </a>
         </li>
         <li>
           <a
-            className="border-2 rounded-[2px] py-1 px-2 button-nav"
+            className="border-2 rounded-[2px] py-1 px-2 button-nav flex items-center gap-1"
             href="#contact"
           >
-            Contact
+            <IoMdContact />
+            <span>Contact</span>
           </a>
         </li>
         <li className="border-2 rounded-full py-2 px-2 button-nav">
