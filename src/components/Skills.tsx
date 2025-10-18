@@ -5,7 +5,7 @@ const listImages = [...listTechnologies, ...listTechnologies];
 
 export const Skills = () => {
   return (
-    <section id="skills" className="py-20">
+    <section id="skills" className="h-screen pt-20 relative">
       <h1 className="text-5xl font-bold text-center mb-5 dark:text-white">
         Skills
       </h1>
