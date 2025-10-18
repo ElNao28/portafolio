@@ -3,6 +3,7 @@
 
 * {
   scroll-behavior: smooth;
+  background-image: url('./assets/backgrounds/global-background.jpg');
 }
 .commic-text {
   font-family: "Bangers", system-ui !important;
