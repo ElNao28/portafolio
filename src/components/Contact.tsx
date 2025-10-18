@@ -1,14 +1,20 @@
 import contactGirl from "../assets/backgrounds/mio-computer.png";
-import computer from '../assets/elements/computer-two.gif'
+import computer from "../assets/elements/computer-two.gif";
 export const Contact = () => {
   return (
     <section id="contact" className="h-screen pt-20 relative">
-      <img src={contactGirl} alt="contact" className="absolute right-0 bottom-0 -z-50" />
-      <img src={computer} alt="contact" className="absolute left-0 bottom-0 -z-50 rounded-full border-2" />
+      <img
+        src={contactGirl}
+        alt="contact"
+        className="absolute right-0 bottom-0 -z-50"
+      />
+      <div className="rounded-full border-2 bg-black absolute left-0 bottom-0 -z-50 overflow-hidden">
+        <img src={computer} alt="contact" />
+      </div>
       <div className="flex flex-col justify-center items-center h-full">
         <h1 className="text-6xl font-bold commic-text text-center mb-10">
-        Contact
-      </h1>
+          Contact
+        </h1>
         <form className="w-2/5">
           <div className="flex flex-col gap-2 mb-3">
             <label htmlFor="name" className="text-xl font-bold">
@@ -55,7 +61,12 @@ export const Contact = () => {
             ></textarea>
           </div>
           <div>
-            <button type="button" className="border-2 rounded-lg cursor-pointer bg-black text-white py-3 w-full font-bold text-2xl">Send Information</button>
+            <button
+              type="button"
+              className="border-2 rounded-lg cursor-pointer bg-black text-white py-3 w-full font-bold text-2xl"
+            >
+              Send Information
+            </button>
           </div>
         </form>
       </div>
