@@ -1,0 +1,12 @@
+
+.button-nav {
+  transition: 0.5s;
+  box-shadow: 3px 4px 0px 1px black;
+}
+
+.button-nav:hover {
+  box-shadow: none
+}
+.backBlur{
+  backdrop-filter: blur(3px);
+}

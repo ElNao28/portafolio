@@ -12,7 +12,8 @@ import postgres from '../assets/technologies/PostgresSQL.png';
 import react from '../assets/technologies/React.png';
 import tailwind from '../assets/technologies/Tailwind CSS.png';
 import typescript from '../assets/technologies/TypeScript.png';
-import type { Technologie } from '../interfaces/Technologies.interface';
+import type { Technologie } from '../interfaces/technologies.interface';
+
 
 const listTechnologies: Technologie[] = [
   {
