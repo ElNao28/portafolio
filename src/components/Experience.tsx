@@ -3,7 +3,7 @@ import girlComputer from "../assets/backgrounds/home-girl.png";
 
 export const Experience = () => {
   return (
-    <section id="experience" className="h-screen pt-40 border-b-2 relative overflow-hidden">
+    <section id="experience" className="h-screen pt-20 border-b-2 relative overflow-hidden">
       <img src={girlComputer} alt="experience" className="absolute bottom-0 w-1/3 drop-shadow-xl drop-shadow-gray-800" />
       <h1 className="text-center text-6xl font-bold commic-text">Experience</h1>
       <div className="flex justify-center mt-5 md:mt-10 relative pb-5">

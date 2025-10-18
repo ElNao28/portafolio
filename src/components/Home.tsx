@@ -8,7 +8,7 @@ export const Home = () => {
     <section id="home" className="h-screen border-b-2 overflow-hidden relative">
       {/* card presentation */}
       <div className="flex flex-col items-center pt-40">
-        <div className="flex items-center gap-10 w-2/3 p-5">
+        <div className="flex items-center gap-10 w-2/3 p-5 card-me">
           <div className="w-2/6">
             <img src={profile} alt="profile picture" className="rounded-full" />
           </div>
