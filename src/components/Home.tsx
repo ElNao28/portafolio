@@ -8,12 +8,12 @@ export const Home = () => {
     <section id="home" className="h-screen border-b-2 overflow-hidden relative">
       {/* card presentation */}
       <div className="flex flex-col items-center pt-40">
-        <div className="flex items-center gap-10 w-2/3 p-5 card-me">
+        <div className="flex items-center gap-10 w-2/3 p-5">
           <div className="w-2/6">
             <img src={profile} alt="profile picture" className="rounded-full" />
           </div>
           <div className="w-4/6">
-            <h1 className="text-4xl font-bold pb-5 commic-text">
+            <h1 className="text-4xl font-bold pb-5 commic-text" id="card-presentation">
               Hi! I'm Luis Jair Escalante Cruz
             </h1>
             <p className="font-semibold">

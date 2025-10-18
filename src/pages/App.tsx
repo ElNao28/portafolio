@@ -8,7 +8,7 @@ import { SocialMedia } from "../components/SocialMedia";
 
 export const App = () => {
   return (
-    <div>
+    <div className="dark:bg-gray-950/80">
       <NavBar />
       <SocialMedia />
       <Home />

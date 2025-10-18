@@ -6,16 +6,21 @@ import { IoFileTrayFullOutline } from "react-icons/io5";
 import { MdCategory } from "react-icons/md";
 import { IoMdContact } from "react-icons/io";
 import { useTheme } from "../hooks/useTheme";
+import { useObserverIntersection } from "../hooks/useObserverIntersection";
 import "../styles/navbar.css";
 
 export type Theme = "dark" | "light";
 
 export const NavBar = () => {
   const { theme, toggleTheme } = useTheme();
+  const { refElement } = useObserverIntersection();
 
   return (
-    <nav className="text-[12px] md:text-lg py-4 md:py-5 px-5 w-full fixed top-0 flex justify-end backdrop-blur-[3px] z-50 border-b-2">
-      <ul className="flex items-center gap-3 md:gap-4 font-bold justify-end">
+    <nav
+      ref={refElement}
+      className="text-[12px] md:text-lg py-4 md:py-5 px-5 w-full fixed top-0 flex justify-end z-20"
+    >
+      <ul className="flex items-center gap-3 md:gap-4 font-bold justify-end z-50">
         <li>
           <a
             className="border-2 rounded-[2px] py-1 px-2 button-nav flex items-center gap-1"

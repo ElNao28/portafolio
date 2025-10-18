@@ -1,5 +1,5 @@
 import listExperience from "../mocks/experience.mock";
-import girlComputer from "../assets/backgrounds/home-girl-modified.png";
+import girlComputer from "../assets/backgrounds/home-girl.png";
 
 export const Experience = () => {
   return (
