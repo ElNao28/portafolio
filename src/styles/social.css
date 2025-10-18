@@ -6,4 +6,5 @@
 .social-item:hover {
   box-shadow: 8px 5px 0px 1px black;
   transform: translateX(-5%);
+  background-color: white;
 }
