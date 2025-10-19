@@ -17,8 +17,9 @@ export const NavBar = () => {
 
   return (
     <nav
+      id="navbar"
       ref={refElement}
-      className="text-[12px] md:text-lg py-4 md:py-5 px-5 w-full fixed top-0 flex justify-end z-20"
+      className="text-[12px] md:text-lg py-5 px-5 w-full fixed top-0 flex justify-end z-20"
     >
       <ul className="flex items-center gap-3 md:gap-4 font-bold justify-end z-50">
         <li>
