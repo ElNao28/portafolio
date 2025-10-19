@@ -23,7 +23,7 @@ export const NavBar = () => {
       <ul className="flex items-center gap-3 md:gap-4 font-bold justify-end z-50">
         <li>
           <a
-            className="border-2 rounded-[2px] py-1 px-2 button-nav flex items-center gap-1"
+            className="border-2 rounded-[2px] py-1 px-2 button-nav flex items-center gap-1 bg-white"
             href="#home"
           >
             <FaHome />
@@ -32,7 +32,7 @@ export const NavBar = () => {
         </li>
         <li>
           <a
-            className="border-2 rounded-[2px] py-1 px-2 button-nav flex items-center gap-1"
+            className="border-2 rounded-[2px] py-1 px-2 button-nav flex items-center gap-1 bg-white"
             href="#experience"
           >
             <GiProgression />
@@ -41,7 +41,7 @@ export const NavBar = () => {
         </li>
         <li>
           <a
-            className="border-2 rounded-[2px] py-1 px-2 button-nav flex items-center gap-1"
+            className="border-2 rounded-[2px] py-1 px-2 button-nav flex items-center gap-1 bg-white"
             href="#projects"
           >
             <IoFileTrayFullOutline />
@@ -50,7 +50,7 @@ export const NavBar = () => {
         </li>
         <li>
           <a
-            className="border-2 rounded-[2px] py-1 px-2 button-nav flex items-center gap-1"
+            className="border-2 rounded-[2px] py-1 px-2 button-nav flex items-center gap-1 bg-white"
             href="#skills"
           >
             <MdCategory />
@@ -59,14 +59,14 @@ export const NavBar = () => {
         </li>
         <li>
           <a
-            className="border-2 rounded-[2px] py-1 px-2 button-nav flex items-center gap-1"
+            className="border-2 rounded-[2px] py-1 px-2 button-nav flex items-center gap-1 bg-white"
             href="#contact"
           >
             <IoMdContact />
             <span>Contact</span>
           </a>
         </li>
-        <li className="border-2 rounded-full py-2 px-2 button-nav">
+        <li className="border-2 rounded-full py-2 px-2 button-nav bg-white">
           {theme === "light" ? (
             <button
               onClick={() => toggleTheme("dark")}

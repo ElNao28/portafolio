@@ -56,7 +56,7 @@ export const Contact = () => {
             <textarea
               id="message"
               className="border-2 rounded-sm p-3"
-              placeholder="Exap: 8101000100"
+              placeholder="Exap: Description message"
               rows={10}
             ></textarea>
           </div>
