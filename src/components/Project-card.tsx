@@ -10,7 +10,7 @@ interface Props {
 }
 export const ProjectCard = ({ urlImage }: Props) => {
   return (
-    <div className="card-project cursor-pointer rounded-sm">
+    <div className="card-project cursor-pointer rounded-sm bg-white">
       <img src={urlImage} alt="" />
       <h3 className="text-center font-bold commic-text text-2xl py-3">
         CRM IAagente

@@ -19,12 +19,12 @@ export const NavBar = () => {
     <nav
       id="navbar"
       ref={refElement}
-      className="text-[12px] md:text-lg py-5 px-5 w-full fixed top-0 flex justify-end z-20"
+      className="text-[10px] md:text-lg py-5 px-5 w-full fixed top-0 flex justify-end z-20"
     >
       <ul className="flex items-center gap-3 md:gap-4 font-bold justify-end z-50">
         <li>
           <a
-            className="border-2 rounded-[2px] py-1 px-2 button-nav flex items-center gap-1 bg-white"
+            className="border-2 rounded-[2px] py-1 px-2 button-nav flex items-center gap-1"
             href="#home"
           >
             <FaHome />
@@ -33,7 +33,7 @@ export const NavBar = () => {
         </li>
         <li>
           <a
-            className="border-2 rounded-[2px] py-1 px-2 button-nav flex items-center gap-1 bg-white"
+            className="border-2 rounded-[2px] py-1 px-2 button-nav flex items-center gap-1"
             href="#experience"
           >
             <GiProgression />
@@ -42,7 +42,7 @@ export const NavBar = () => {
         </li>
         <li>
           <a
-            className="border-2 rounded-[2px] py-1 px-2 button-nav flex items-center gap-1 bg-white"
+            className="border-2 rounded-[2px] py-1 px-2 button-nav flex items-center gap-1"
             href="#projects"
           >
             <IoFileTrayFullOutline />
@@ -51,7 +51,7 @@ export const NavBar = () => {
         </li>
         <li>
           <a
-            className="border-2 rounded-[2px] py-1 px-2 button-nav flex items-center gap-1 bg-white"
+            className="border-2 rounded-[2px] py-1 px-2 button-nav flex items-center gap-1"
             href="#skills"
           >
             <MdCategory />
@@ -60,14 +60,14 @@ export const NavBar = () => {
         </li>
         <li>
           <a
-            className="border-2 rounded-[2px] py-1 px-2 button-nav flex items-center gap-1 bg-white"
+            className="border-2 rounded-[2px] py-1 px-2 button-nav flex items-center gap-1"
             href="#contact"
           >
             <IoMdContact />
             <span>Contact</span>
           </a>
         </li>
-        <li className="border-2 rounded-full py-2 px-2 button-nav bg-white">
+        <li className="border-2 rounded-full py-2 px-2 button-nav">
           {theme === "light" ? (
             <button
               onClick={() => toggleTheme("dark")}

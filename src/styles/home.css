@@ -1,10 +1,4 @@
-.card-me {
-  border: black solid 3px;
-  border-radius: 10px 10px 0px 10px;
-  box-shadow: 18px 18px 0px 3px black;
-  transition: 0.5s;
-}
-
+  
 .button-download {
   border: black solid 3px;
   border-radius: 10px;
