@@ -6,9 +6,9 @@ export const useTheme = () => {
   const [theme, setTheme] = useState<Theme>(() => {
     const stored = localStorage.getItem("theme") as Theme | null;
     if (!stored) {
-      localStorage.setItem("theme", "dark");
-      document.documentElement.classList = 'dark'
-      return "dark";
+      localStorage.setItem("theme", "light");
+      document.documentElement.classList = "light";
+      return "light";
     }
     document.documentElement.classList = stored;
     return stored;
@@ -16,7 +16,7 @@ export const useTheme = () => {
 
   const toggleTheme = (dataTheme: Theme) => {
     setTheme(dataTheme);
-    localStorage.setItem('theme',dataTheme)
+    localStorage.setItem("theme", dataTheme);
     document.documentElement.classList.toggle("dark");
   };
 
