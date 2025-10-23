@@ -1,12 +1,37 @@
-
 .button-nav {
   transition: 0.5s;
   box-shadow: 3px 4px 0px 1px black;
 }
 
 .button-nav:hover {
-  box-shadow: none
+  box-shadow: none;
+  background-color: rgba(255, 255, 255, 0.836);
 }
-.backBlur{
+.backBlur {
   backdrop-filter: blur(3px);
+}
+
+/* Item that enter for right */
+.mobile-nav li:nth-child(1),
+.mobile-nav li:nth-child(3),
+.mobile-nav li:nth-child(5) {
+  transform: translateX(100%);
+  opacity: 0;
+  animation: enterNavItems 0.8s forwards ease-in;
+}
+
+/* Item that enter for left */
+.mobile-nav li:nth-child(2),
+.mobile-nav li:nth-child(4),
+.mobile-nav li:nth-child(6) {
+  transform: translateX(-100%);
+  opacity: 0;
+  animation: enterNavItems 0.8s forwards ease-in;
+}
+
+@keyframes enterNavItems {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }

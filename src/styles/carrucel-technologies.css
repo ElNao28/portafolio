@@ -1,23 +1,48 @@
-.slider .slider-track{
+.slider-container {
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
+  mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
+}
+.slider-container {
+  overflow: hidden;
+}
+.slider-container .slider-track {
   display: flex;
-  gap: 1.5rem;
-  width: calc(6.5rem * 28);
-  animation: scroll 30s linear infinite;
+  gap: 2rem;
+  width: calc((5rem + 2rem) * 14 * 2);
+  animation: moveToLeft 30s infinite linear;
 }
 
-.slider .card{
+.slider-track-right {
+  display: flex;
+  gap: 2rem;
+  width: calc((5rem + 2rem) * 14 * 2);
+  animation: moveToRight 30s infinite linear;
+}
+
+.slider-container .item-slider {
   width: 5rem;
 }
 
-.slider .card img{
+.slider-container .item-slider img {
   width: 100%;
 }
 
-@keyframes scroll {
-  from{
-    transform: translateX(0)
+@keyframes moveToLeft {
+  from {
+    transform: translateX(0);
   }
-  to{
-    transform: translateX(calc(-6.5rem * 14));
+  to {
+    transform: translateX(calc(-1 * (5rem + 2rem) * 14));
   }
 }
+
+@keyframes moveToRight {
+  from {
+    transform: translateX(calc(-1 * (5rem + 2rem) * 14));
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+

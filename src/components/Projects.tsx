@@ -9,7 +9,7 @@ export const Projects = () => {
       <h1 className="text-center commic-text text-6xl font-bold pb-10">Projects</h1>
       {/* project cards */}
       <div className="flex justify-center">
-        <div className="grid grid-cols-3 w-[85%] gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[85%] gap-10">
           {testArray.map((item) => {
             return <ProjectCard key={item} urlImage={projectImg} />;
           })}

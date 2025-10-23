@@ -1,76 +1,70 @@
-import angular from '../assets/technologies/Angular.png';
-import css from '../assets/technologies/CSS3.png';
-import docker from '../assets/technologies/Docker.png';
-import git from '../assets/technologies/Git.png';
-import html from '../assets/technologies/HTML5.png';
-import ionic from '../assets/technologies/Ionic.png';
-import javascript from '../assets/technologies/JavaScript.png';
-import mysql from '../assets/technologies/MySQL.png';
-import nest from '../assets/technologies/Nest.js.png';
-import node from '../assets/technologies/Node.js.png';
-import postgres from '../assets/technologies/PostgresSQL.png';
-import react from '../assets/technologies/React.png';
-import tailwind from '../assets/technologies/Tailwind CSS.png';
-import typescript from '../assets/technologies/TypeScript.png';
-import type { Technologie } from '../interfaces/technologies.interface';
-
+import type { Technologie } from "../interfaces/technologies.interface";
+import {
+  IoLogoCss3,
+  IoLogoGithub,
+  IoLogoIonic,
+  IoLogoJavascript,
+} from "react-icons/io";
+import { FaAngular, FaDocker, FaHtml5, FaNode, FaReact } from "react-icons/fa";
+import { SiMysql, SiNestjs, SiTailwindcss, SiTypescript } from "react-icons/si";
+import { DiPostgresql } from "react-icons/di";
 
 const listTechnologies: Technologie[] = [
   {
-    name: 'Angular',
-    url: angular,
+    name: "Angular",
+    url: FaAngular,
   },
   {
-    name: 'CSS3',
-    url: css,
+    name: "CSS3",
+    url: IoLogoCss3,
   },
   {
-    name: 'Docker',
-    url: docker,
+    name: "Docker",
+    url: FaDocker,
   },
   {
-    name: 'Git',
-    url: git,
+    name: "Git",
+    url: IoLogoGithub,
   },
   {
-    name: 'HTML5',
-    url: html,
+    name: "HTML5",
+    url: FaHtml5,
   },
   {
-    name: 'Ionic',
-    url: ionic,
+    name: "Ionic",
+    url: IoLogoIonic,
   },
   {
-    name: 'JavaScript',
-    url: javascript,
+    name: "JavaScript",
+    url: IoLogoJavascript,
   },
   {
-    name: 'MySQL',
-    url: mysql,
+    name: "MySQL",
+    url: SiMysql,
   },
   {
-    name: 'NestJS',
-    url: nest,
+    name: "NestJS",
+    url: SiNestjs,
   },
   {
-    name: 'Node.js',
-    url: node,
+    name: "Node.js",
+    url: FaNode,
   },
   {
-    name: 'PostgreSQL',
-    url: postgres,
+    name: "PostgreSQL",
+    url: DiPostgresql,
   },
   {
-    name: 'React',
-    url: react,
+    name: "React",
+    url: FaReact,
   },
   {
-    name: 'Tailwind',
-    url: tailwind,
+    name: "Tailwind",
+    url: SiTailwindcss,
   },
   {
-    name: 'TypeScript',
-    url: typescript,
+    name: "TypeScript",
+    url: SiTypescript,
   },
 ];
 
