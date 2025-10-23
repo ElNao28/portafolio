@@ -1,53 +1,67 @@
-import contactImage from "../assets/elements/computer-two.gif";
+import contactGirl from "../assets/backgrounds/mio-computer.png";
 export const Contact = () => {
   return (
-    <section
-      id="contact"
-      className="bg-linear-to-tr from-purple-500 dark:to-black to-30%"
-    >
-      <h1 className="text-4xl md:text-6xl font-bold dark:text-white text-center mb-10">
-        Contact
-      </h1>
-      <div className="flex justify-center items-center w-full pb-10 gap-20 overflow-hidden relative">
-          <img src={contactImage} alt="contact" className="absolute bottom-32 lg:static z-0" />
-        <form className="w-[95%] md:w-[80%] lg:w-[30%] z-20 dark:backdrop-brightness-50 p-5 lg:backdrop-brightness-100 lg:p-2 rounded-md overflow-hidden backdrop-blur-[4px]">
-          <div className="dark:text-white flex flex-col gap-2 mb-8">
-            <label className="font-bold text-lg" htmlFor="name">
-              Name and last name
+    <section id="contact" className="h-screen pt-20 relative">
+      <img
+        src={contactGirl}
+        alt="contact"
+        className="absolute right-0 bottom-0 -z-50"
+      />
+      <div className="flex flex-col justify-center items-center h-full">
+        <h1 className="text-6xl font-bold commic-text text-center mb-10">
+          Contact
+        </h1>
+        <form className="w-5/6 lg:w-2/5 backdrop-blur-[5px] rounded-md p-3">
+          <div className="flex flex-col gap-2 mb-3">
+            <label htmlFor="name" className="text-xl font-bold">
+              Name and lastname
             </label>
             <input
-              className="ring-1 ring-gray-700 rounded-md p-2 outline-0 focus:outline-2 outline-purple-300"
-              placeholder="Example: Jonh doe"
-              type="text"
               id="name"
+              type="text"
+              className="border-2 rounded-sm p-3"
+              placeholder="Exap: Jonh Doe"
             />
           </div>
-          <div className="dark:text-white flex flex-col gap-2 mb-8">
-            <label className="font-bold text-lg" htmlFor="email">
+          <div className="flex flex-col gap-2 mb-3">
+            <label htmlFor="email" className="text-xl font-bold">
               Email
             </label>
             <input
-              className="ring-1 ring-gray-700 rounded-md p-2 outline-0 focus:outline-2 outline-purple-300"
-              placeholder="Example: Jonh doe"
-              type="email"
               id="email"
+              type="email"
+              className="border-2 rounded-sm p-3"
+              placeholder="Exap: example@mail.com"
             />
           </div>
-          <div className="dark:text-white flex flex-col gap-2 mb-8">
-            <label className="font-bold text-lg" htmlFor="message">
+          <div className="flex flex-col gap-2 mb-3">
+            <label htmlFor="phone" className="text-xl font-bold">
+              Cellphone
+            </label>
+            <input
+              id="phone"
+              type="text"
+              className="border-2 rounded-sm p-3"
+              placeholder="Exap: 8101000100"
+            />
+          </div>
+          <div className="flex flex-col gap-2 mb-3">
+            <label htmlFor="message" className="text-xl font-bold">
               Message
             </label>
             <textarea
-              className="ring-1 ring-gray-700 rounded-md p-2 outline-0 focus:outline-2 outline-purple-300"
-              name="message"
               id="message"
+              className="border-2 rounded-sm p-3"
+              placeholder="Exap: Description message"
               rows={10}
             ></textarea>
           </div>
-
-          <div className="">
-            <button type="button" className="bg-purple-500 text-white px-6 py-2 rounded-md font-bold text-lg cursor-pointer hover:bg-purple-400">
-              Send
+          <div>
+            <button
+              type="button"
+              className="border-2 rounded-lg cursor-pointer bg-black text-white py-3 w-full font-bold text-2xl"
+            >
+              Send Information
             </button>
           </div>
         </form>

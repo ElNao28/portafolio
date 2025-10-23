@@ -1,0 +1,10 @@
+  
+.button-download {
+  border: black solid 3px;
+  border-radius: 10px;
+  box-shadow: 4px 8px 0px 2px black;
+  transition: all 0.5s;
+}
+.button-download:hover {
+  box-shadow: none;
+}

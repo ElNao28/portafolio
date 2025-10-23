@@ -1,0 +1,9 @@
+.card-project{
+    border: 2px solid;
+    transition: all 0.5s;
+}
+
+.card-project:hover{
+    transform: rotate(-1deg);
+    box-shadow: 16px 18px 0px 5px black;
+}

@@ -1,0 +1,10 @@
+.social-item {
+  transition: all 0.5s ease;
+  transform: translateX(-65%);
+}
+
+.social-item:hover {
+  background-color: white;
+  box-shadow: 8px 5px 0px 1px black;
+  transform: translateX(-5%);
+}
