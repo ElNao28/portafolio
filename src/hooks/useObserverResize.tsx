@@ -7,6 +7,7 @@ interface Props {
 export type BreakPoints = "IsSm" | "IsMd" | "IsLg" | "IsXl";
 
 export const useObserverResize = ({ idElement }: Props) => {
+  
   const [isResolution, setIsResolution] = useState<BreakPoints>(() => {
     const el = document.getElementById(idElement);
     if (!el) return "IsSm";
