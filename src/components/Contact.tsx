@@ -1,5 +1,4 @@
 import contactGirl from "../assets/backgrounds/mio-computer.png";
-import computer from "../assets/elements/computer-two.gif";
 export const Contact = () => {
   return (
     <section id="contact" className="h-screen pt-20 relative">
@@ -8,14 +7,11 @@ export const Contact = () => {
         alt="contact"
         className="absolute right-0 bottom-0 -z-50"
       />
-      <div className="rounded-full border-2 bg-black absolute left-0 bottom-0 -z-50 overflow-hidden">
-        <img src={computer} alt="contact" />
-      </div>
       <div className="flex flex-col justify-center items-center h-full">
         <h1 className="text-6xl font-bold commic-text text-center mb-10">
           Contact
         </h1>
-        <form className="w-2/5">
+        <form className="w-5/6 lg:w-2/5 backdrop-blur-[5px] rounded-md p-3">
           <div className="flex flex-col gap-2 mb-3">
             <label htmlFor="name" className="text-xl font-bold">
               Name and lastname
