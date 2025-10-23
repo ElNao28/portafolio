@@ -1,4 +1,4 @@
 export interface Technologie {
-    name:string;
-    url:string;
+  name: string;
+  url: any;
 }
