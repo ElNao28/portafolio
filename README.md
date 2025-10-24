@@ -39,7 +39,7 @@ docker container -p 8080:80 run name_image
 ```
 ### Notes
 
-If already build you the container run this command
+If you have already built the container, run this command
 
 ```bash
 docker container start id_container
