@@ -1,4 +1,3 @@
-import type { Technologie } from "../interfaces/technologies.interface";
 import {
   IoLogoCss3,
   IoLogoGithub,
@@ -8,6 +7,8 @@ import {
 import { FaAngular, FaDocker, FaHtml5, FaNode, FaReact } from "react-icons/fa";
 import { SiMysql, SiNestjs, SiTailwindcss, SiTypescript } from "react-icons/si";
 import { DiPostgresql } from "react-icons/di";
+import type { Technologie } from "../interfaces/Technologies.interface";
+
 
 const listTechnologies: Technologie[] = [
   {
