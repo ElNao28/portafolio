@@ -15,7 +15,7 @@ With this project I seek to show my personal information, technologies I use, my
 1. **Clone repository**
 
 ```bash
-git clone https://github.com/ElNao28/novedades-ar-proyecto.git
+git clone https://github.com/ElNao28/portafolio.git
 ```
 
 2. **Install dependences**
@@ -41,7 +41,7 @@ docker build -t name_image .
 2. Build container by image
 
 ```bash
-docker container -p 8080:80 run name_image
+docker container run -p 8080:80 name_image
 ```
 
 ### Notes
